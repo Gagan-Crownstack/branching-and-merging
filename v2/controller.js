@@ -12,7 +12,7 @@ export const getUpdates=(req,res)=>{
     res.status(200).json({updates: "This new update is for version 2 and the application is more secure than previously"})
 }
 
-export const featuresA=(req,res)=>{
+export const featureA=(req,res)=>{
     res.status(200).json({
         name:"FeatureA",
         des:"this will divide the work load equally",
