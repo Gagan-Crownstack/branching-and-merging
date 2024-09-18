@@ -1,5 +1,5 @@
 import express from 'express'
-import { getall,getdata,getUpdates } from './controller.js';
+import { getall,getdata,getUpdates,featureA,featureB,featureC } from './controller.js';
 
 const routerv2 = express.Router();
 
