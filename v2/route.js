@@ -10,6 +10,14 @@ routerv2.get('/update',getUpdates);
 routerv2.get('/feature/a',featureA);
 routerv2.get('/feature/b',featureB);
 routerv2.get('feature/c',featureC);
+routerv2.get('/feature/c',()=>{});
+routerv2.get('/feature/d',()=>{});
+routerv2.get('/feature/e',()=>{});
+routerv2.get('/feature/f',()=>{});
+
+
+
+
 
 
 export default routerv2;
