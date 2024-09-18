@@ -10,7 +10,7 @@ app.get('/',(req,res)=>{
 })
 
 app.use('/v1',v1router);
-app.use('v2',v2router);
+app.use('/v2',v2router);
 
 app.listen(PORT, (req,res)=>{
     console.log(`Your application is running on Port http://localhost:${PORT}`);
